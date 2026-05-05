@@ -1,5 +1,7 @@
-google-cloud-bigquery
-pandas
-pyarrow
-db-dtypes
-python-dotenv
+google-cloud-bigquery==3.25.0
+google-auth==2.29.0
+pandas==2.2.2
+pyarrow==15.0.2
+db-dtypes==1.2.0
+python-dotenv==1.0.1
+faker==25.2.0

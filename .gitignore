@@ -1,3 +1,27 @@
+# ENTORNOS VIRTUALES
+venv/
+.venv/
+env/
+
+# CREDENCIALES (NUNCA subir)
 .env
 credentials/
 *.json
+!.env.example
+
+# PYTHON
+**pycache**/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# JUPYTER
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# SISTEMA
+.DS_Store
+Thumbs.db
